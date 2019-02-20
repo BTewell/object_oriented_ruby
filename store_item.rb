@@ -13,8 +13,8 @@
 # p "And if you like #{item3[:flavor]}, then #{item3[:price]} is all that's between you and the scrumptious #{item3[:name]}! Get one today!"
 
 class Item
-  attr_reader :name, :flavor, :price
-  attr_writer :name, :flavor, :price 
+  attr_accessor :name, :flavor, :price
+  # attr_writer :name, :flavor, :price 
   def initialize(input_options)
     @name = input_options[:name]
     @flavor = input_options[:flavor]
