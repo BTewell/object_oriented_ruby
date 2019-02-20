@@ -31,7 +31,7 @@ p person.hair_color
 class Team
   bretts_attr_accessor :sport, :name, :city, :mascot 
   def print_info
-    p "#{mascot}, the mascot for the #{city}#{name}, is the most terrifying mascot in all of #{sport}."  
+    p "#{mascot}, the mascot for the #{city} #{name}, is the most terrifying mascot in all of #{sport}."  
   end 
 end
 
